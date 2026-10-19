@@ -9,5 +9,13 @@ public class LatihanClass {
         System.out.println("Nama:" +m1.nama);
         System.out.println("NIM:" +m1.nim);
         System.out.println("IPK:" +m1.ipk);
+
+        Mahasiswa m2 = new Mahasiswa();
+        m2.nama = "siti";
+        m2.nim ="67891";
+        m2.ipk =3.9;
+
+        System.out.println(m1.nama+"-"+m1.ipk);
+        System.out.println(m2.nama+"-"+m2.ipk);
     }
 }
