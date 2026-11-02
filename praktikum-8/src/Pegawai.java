@@ -3,7 +3,8 @@ public class Pegawai {
     protected String nip;
     protected double gajipokok;
 
-    public Pegawai(String nama,String nip,double gajipokok){
+    public Pegawai(String nama,String nip,double gajipokok) {
+        System.out.println("1. Constructor pegawai dijalankan");
         this.nama=nama;
         this.nip=nip;
         this.gajipokok=gajipokok;

@@ -1,4 +1,4 @@
-public class perusahanDemo {
+public class perusahaanDemo {
     public static void main(String[] args) {
         Manager mgr = new Manager("budi","M001",8000000, 2000000);
                 mgr.tampilkanData();//method 'warisan' dari pegawai

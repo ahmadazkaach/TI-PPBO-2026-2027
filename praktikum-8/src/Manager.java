@@ -3,6 +3,7 @@ public class Manager extends Pegawai {
 
     public Manager(String nama, String nip,double gajipokok,double tunjanganJabatan) {
         super (nama, nip, gajipokok);//panggil construktor pegawai
+        System.out.println("2. Constructor Manager dijalankan");
         this.tunjanganJabatan = tunjanganJabatan;
     }
 
