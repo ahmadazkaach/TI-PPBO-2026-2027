@@ -8,6 +8,13 @@ public class Pegawai {
         this.nama=nama;
         this.nip=nip;
         this.gajipokok=gajipokok;
+
+        if (gajipokok < 0){
+            System.out.println("Peringatan: Gajipokok tidak boleh negatif");
+            this.gajipokok = 0;
+        }else {
+            this.gajipokok = gajipokok; 
+        }
     }
     public void tampilkanData(){
         System.out.println("Nama: " + nama);
